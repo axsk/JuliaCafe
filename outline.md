@@ -5,9 +5,11 @@
   `curl -fsSL https://install.julialang.org | sh`
 - Let julia use a directory-specific history file. Add this to your .bashrc:
   `alias julia="JULIA_HISTORY=./.history.jl_ command julia`
+- if desired modify your [startup file](startup.jl)
 
 ## 2. VSCode
 - I prefer to start REPL manually
+  - about the [Julia](https://www.julia-vscode.org/docs/stable/) and the VSCode remote extensions.
   - tmux
   - code > connect external REPL
 
@@ -75,3 +77,11 @@ Transducers (Map, ...) / Folds (Folds.sum) (unclear future)
 - @profile / @code_warntype / @benchmark
   - watch out for runtime dispatch / allocations
 - @views / @.
+
+
+## 8. useful references 
+Must read sections from the Julia docs
+- https://docs.julialang.org/en/v1/manual/performance-tips/
+- https://docs.julialang.org/en/v1/manual/workflow-tips/
+- https://docs.julialang.org/en/v1/manual/style-guide/
+- https://docs.julialang.org/en/v1/manual/faq/
