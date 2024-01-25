@@ -1,0 +1,7 @@
+[deps]
+Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
+Folds = "41a02a25-b8f0-4f67-bc48-60067656b558"
+Infiltrator = "5903a43b-9cc3-4c30-8d17-598619ec4e9b"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
+Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
