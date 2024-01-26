@@ -16,6 +16,8 @@ function myspecialforce(x)
 end
 myspecialforce(x::Vector) = myspecialforce.(x) 
 
+
+
 myshortimplementation(x) = @. x^3 - x
 
 function checkedforce(x)  # good to have for correctness / alternative implementation / performance tests
@@ -78,7 +80,7 @@ function metaexperiment(;ndims=3, kwargs...)
     myexperiment(; dim, kwargs...)
   end
 
-  exps = 1:ndims |> Map(dim -> myexperiment(; dim, kwargs...)) |> collect
+  #exps = 1:ndims |> Map(dim -> myexperiment(; dim, kwargs...)) |> collect
 
   plt = plot([e.plot for e in exps]...)
 

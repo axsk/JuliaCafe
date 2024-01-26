@@ -6,6 +6,7 @@
 - Let julia use a directory-specific history file. Add this to your .bashrc:
   `alias julia="JULIA_HISTORY=./.history.jl_ command julia`
 - if desired modify your [startup file](startup.jl)
+- extensions
 
 ## 2. VSCode
 - I prefer to start REPL manually
@@ -21,7 +22,7 @@
 - Recommended "global" packages:
 Revise (using, includet)
 BenchmarkTools (@benchmark)
-OhMyREPL
+OhMyREPL - ctrl+r gives me fzf
 Plots
 StatsBase (mean, std, ...)
 
