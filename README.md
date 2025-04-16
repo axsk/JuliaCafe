@@ -11,8 +11,8 @@
 ##  VSCode
 - I prefer to start REPL manually
   - about the [Julia](https://www.julia-vscode.org/docs/stable/) and the VSCode remote extensions.
-  - tmux
-  - code > connect external REPL
+  - start `tmux` inside the VSCode terminal and run `julia` to get the REPL
+  - Connect VSCode to that repl via `Ctrl+P > connect external REPL`
 - I think there are not so many musthave VSCode extensions, except for `Julia` (and the vim bindings, but if you want them you already know that :)
 
 ##  Packages:
